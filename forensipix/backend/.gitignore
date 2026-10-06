@@ -1,0 +1,141 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.venv.local/
+.venv.prod/
+.venv.dev/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+package-lock.json
+package-lock.yaml
+pnpm-lock.yaml
+.npm
+.eslintcache
+.stylelintcache
+.vite/
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.*.swp
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.cache
+.temp/
+tmp/
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+.htmlcov/
+.github/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.htmlreport/
+.junit/
+.tox/
+.nox/
+.eggs/
+*.egg-info/
+.eggs/
+dist/
+build/
+parts/
+sdist/
+var/
+sdist/
+pip-wheel-metadata/
+share/python-wheels/
+*.pyc
+.*-pyc.py
+__pycache__/
+.myypy/
+.mypy_cache/
+.dmypy.json
+.dmypy.temp
+.pyre/
+.pyre_errors/*
+.pylog/
+/.pyre_server.state
+/Buy/
+.eggs/
+
+# Specific to this project
+storage/evidence/*
+storage/derived/*
+storage/reports/*
+!storage/evidence/.gitkeep
+!storage/derived/.gitkeep
+!storage/reports/.gitkeep
+
+# Generated forensic files
+*.ela.*
+*.heatmap.*
+*.analysis.*
+*.report.*
+*_report.pdf
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# Secrets and keys
+*.pem
+*.key
+*.secret
+*.cert
+*.csr
+
+# Model files if large
+*.onnx
+*.pt
+*.pth
+*.safetensors
+models/*.bin
+models/*.ckpt
+
+# Logs
+*.log
+log/
+logs/
+
+# OS generated
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Network Trash Folder
+Temporary Items
+.apdisk
